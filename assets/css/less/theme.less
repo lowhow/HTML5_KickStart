@@ -1,0 +1,399 @@
+/*basic*/
+/*
+db   d8b   db  .d88b.  d8888b. d8888b. d8888b. d8888b. d88888b .d8888. .d8888. 
+88   I8I   88 .8P  Y8. 88  `8D 88  `8D 88  `8D 88  `8D 88'     88'  YP 88'  YP 
+88   I8I   88 88    88 88oobY' 88   88 88oodD' 88oobY' 88ooooo `8bo.   `8bo.   
+Y8   I8I   88 88    88 88`8b   88   88 88~~~   88`8b   88~~~~~   `Y8b.   `Y8b. 
+`8b d8'8b d8' `8b  d8' 88 `88. 88  .8D 88      88 `88. 88.     db   8D db   8D 
+ `8b8' `8d8'   `Y88P'  88   YD Y8888D' 88      88   YD Y88888P `8888Y' `8888Y' 
+*/   
+
+/* Images */
+.alignleft{float:left}.alignright{float:right}.aligncenter{display:block;margin-left:auto;margin-right:auto}img.alignleft{margin:5px 20px 5px 0}.wp-caption.alignleft{margin:5px 10px 5px 0}img.alignright{margin:5px 0 5px 20px}.wp-caption.alignright{margin:5px 0 5px 10px}img.aligncenter{margin:5px auto}img.alignnone{margin:5px 0}.entry-caption,.gallery-caption,.wp-caption .wp-caption-text{color:#220e10;font-size:18px;font-style:italic;font-weight:300}.rsswidget img,img.wp-smiley{border:0;border-radius:0;box-shadow:none;margin-bottom:0;margin-top:0;padding:0}.wp-caption.alignleft+ol,.wp-caption.alignleft+ul{list-style-position:inside}
+
+
+
+/**
+ * Mixins
+ */
+.clear-boxshadow        {   -webkit-box-shadow: none!important; -webkit-appearance: none!important;-moz-box-shadow: none!important;box-shadow: none!important; }
+
+
+
+/*
+db       .d8b.  db    db  .d88b.  db    db d888888b 
+88      d8' `8b `8b  d8' .8P  Y8. 88    88 `~~88~~' 
+88      88ooo88  `8bd8'  88    88 88    88    88    
+88      88~~~88    88    88    88 88    88    88    
+88booo. 88   88    88    `8b  d8' 88b  d88    88    
+Y88888P YP   YP    YP     `Y88P'  ~Y8888P'    YP   
+*/
+
+/**
+ * BODY
+ */
+body, html              { padding: 0; height: 100%; font-weight: 300; text-align: center; }
+
+/**
+ * Link
+ */
+a                       { .transition(~"all 250ms");
+  &:hover,
+  &:focus               { .transition(~"all 250ms"); }
+}
+
+#main a                 { 
+  &:hover,
+  &:focus               { }
+
+  &:focus {
+    .tab-focus();
+  }
+}
+
+/**
+ * Typography
+ */
+p                       { }
+h1, h2,h3,h4            { }
+hr                      { }
+
+/**
+ * -Page
+ */
+#page                   { }
+
+/**
+ * --Header
+ */
+#masthead               { }
+
+/**
+ * --Main
+ */
+#main                   { 
+  #main-inner           { }
+}
+
+/**
+ * --Footer
+ */
+#colophon               { }
+.site-info              { }
+ 
+/**
+ * ---Primary
+ */
+#primary                {  }
+
+/**
+ * ---Secondary
+ */
+#secondary              { }
+
+/**
+ * ---Tertiary
+ */
+#tertiary               { }
+
+
+/**
+ * Home stuffs
+ */
+body.home               { 
+}
+
+
+
+/*
+   ____    __  __            _  _           ___                      _            
+  / __ \  |  \/  |  ___   __| |(_)  __ _   / _ \  _   _   ___  _ __ (_)  ___  ___ 
+ / / _` | | |\/| | / _ \ / _` || | / _` | | | | || | | | / _ \| '__|| | / _ \/ __|
+| | (_| | | |  | ||  __/| (_| || || (_| | | |_| || |_| ||  __/| |   | ||  __/\__ \
+ \ \__,_| |_|  |_| \___| \__,_||_| \__,_|  \__\_\ \__,_| \___||_|   |_| \___||___/
+  \____/  
+*/
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { 
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { 
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {
+}
+
+/*
+.88b  d88. d88888b d8b   db db    db 
+88'YbdP`88 88'     888o  88 88    88 
+88  88  88 88ooooo 88V8o 88 88    88 
+88  88  88 88~~~~~ 88 V8o88 88    88 
+88  88  88 88.     88  V888 88b  d88 
+YP  YP  YP Y88888P VP   V8P ~Y8888P' 
+*/
+
+
+
+
+
+/*
+   ____    __  __            _  _           ___                      _            
+  / __ \  |  \/  |  ___   __| |(_)  __ _   / _ \  _   _   ___  _ __ (_)  ___  ___ 
+ / / _` | | |\/| | / _ \ / _` || | / _` | | | | || | | | / _ \| '__|| | / _ \/ __|
+| | (_| | | |  | ||  __/| (_| || || (_| | | |_| || |_| ||  __/| |   | ||  __/\__ \
+ \ \__,_| |_|  |_| \___| \__,_||_| \__,_|  \__\_\ \__,_| \___||_|   |_| \___||___/
+  \____/  
+*/
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { 
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { 
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {
+}
+
+/*
+ .o88b.  .d88b.  d8b   db d888888b d88888b d8b   db d888888b 
+d8P  Y8 .8P  Y8. 888o  88 `~~88~~' 88'     888o  88 `~~88~~' 
+8P      88    88 88V8o 88    88    88ooooo 88V8o 88    88    
+8b      88    88 88 V8o88    88    88~~~~~ 88 V8o88    88    
+Y8b  d8 `8b  d8' 88  V888    88    88.     88  V888    88    
+ `Y88P'  `Y88P'  VP   V8P    YP    Y88888P VP   V8P    YP  
+*/
+/**
+ * Content
+ */
+#Content                  { }
+
+/**
+ * -Content Headers
+ */
+.archive-header           { }
+
+/** Edit link that appears when logged in */
+.edit-link                { 
+  a                       { }
+}
+
+/** General settings on entry meta */
+.entry-meta               { 
+  .entry-utility-prep     { }
+  .entry-date             { }
+  .author                 { }
+  .categories-links       { }
+  .tags-links             { }
+}
+
+.entry-header             { 
+  .entry-title            { }
+}
+
+/** Author stuffs */
+.author-info              { 
+  .author-avatar          { }
+  .author-description     {
+    .author-title         { }
+    .author-bio           { }
+    .author-link          { }
+  }
+  
+}
+
+
+/**
+ * Content
+ */
+.hentry                   { 
+  // all images and div caption wrapper must be responsive;
+  img, .wp-caption        { }               
+
+  .entry-header           { 
+    .entry-thumbnail      { 
+      img                 { }
+    }
+    .entry-meta           { }
+    h1.entry-title        { 
+      
+      a                   { 
+        &:hover,
+        &:focus           { }
+      } 
+      .subline            { }
+    }
+    h2.entry-title        { }
+    .entry-title          { }
+      a                   { 
+      &:hover             { }
+      }
+  }
+  .entry-content          { }
+  .entry-meta             { 
+    .entry-utility-prep   { }
+    .entry-date           { }
+  }
+  footer.entry-meta       { }
+  
+}
+
+/** Hentry in list */
+.hentry-list              { 
+  .entry-header           {
+    h1.entry-title        { }
+    h2.entry-title        { }
+  }
+}
+
+/** Comments */
+#comments                 { }
+
+/** Images */
+.hentry                   {
+  //.img-responsive         { max-width:96%; background-color: fade( #000, 50% ); padding: 2%;  }
+}
+
+/** Category */
+
+.category-archive-meta    { }
+
+
+/**
+ * Contact Us
+ */
+.contact-us               {
+  .entry-header           {
+    h1.entry-title        { }
+  }
+  #map-canvas             { }
+}
+
+
+/*
+   ____    __  __            _  _           ___                      _            
+  / __ \  |  \/  |  ___   __| |(_)  __ _   / _ \  _   _   ___  _ __ (_)  ___  ___ 
+ / / _` | | |\/| | / _ \ / _` || | / _` | | | | || | | | / _ \| '__|| | / _ \/ __|
+| | (_| | | |  | ||  __/| (_| || || (_| | | |_| || |_| ||  __/| |   | ||  __/\__ \
+ \ \__,_| |_|  |_| \___| \__,_||_| \__,_|  \__\_\ \__,_| \___||_|   |_| \___||___/
+  \____/  
+*/
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { 
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { 
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {
+}
+/*
+         _____                                _        
+   ____ |_   _|                              | |       
+  / __ \  | |  _ __ ___   _ __    ___   _ __ | |_  ___ 
+ / / _` | | | | '_ ` _ \ | '_ \  / _ \ | '__|| __|/ __|
+| | (_| |_| |_| | | | | || |_) || (_) || |   | |_ \__ \
+ \ \__,_|\___/|_| |_| |_|| .__/  \___/ |_|    \__||___/
+  \____/                 | |                           
+                         |_|  
+*/
+// @import "part-grid-isotope.less";
+
+/*
+.88b  d88.  .d88b.  d8888b. db    db db      d88888b .d8888. 
+88'YbdP`88 .8P  Y8. 88  `8D 88    88 88      88'     88'  YP 
+88  88  88 88    88 88   88 88    88 88      88ooooo `8bo.   
+88  88  88 88    88 88   88 88    88 88      88~~~~~   `Y8b. 
+88  88  88 `8b  d8' 88  .8D 88b  d88 88booo. 88.     db   8D 
+YP  YP  YP  `Y88P'  Y8888D' ~Y8888P' Y88888P Y88888P `8888Y' 
+*/
+/*
+   ____    __  __            _  _           ___                      _            
+  / __ \  |  \/  |  ___   __| |(_)  __ _   / _ \  _   _   ___  _ __ (_)  ___  ___ 
+ / / _` | | |\/| | / _ \ / _` || | / _` | | | | || | | | / _ \| '__|| | / _ \/ __|
+| | (_| | | |  | ||  __/| (_| || || (_| | | |_| || |_| ||  __/| |   | ||  __/\__ \
+ \ \__,_| |_|  |_| \___| \__,_||_| \__,_|  \__\_\ \__,_| \___||_|   |_| \___||___/
+  \____/  
+*/
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { 
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { 
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {
+}
+
+/*
+ .o88b.  .d88b.  .88b  d88. d8888b. .d8888. 
+d8P  Y8 .8P  Y8. 88'YbdP`88 88  `8D 88'  YP 
+8P      88    88 88  88  88 88oodD' `8bo.   
+8b      88    88 88  88  88 88~~~     `Y8b. 
+Y8b  d8 `8b  d8' 88  88  88 88      db   8D 
+ `Y88P'  `Y88P'  YP  YP  YP 88      `8888Y' 
+*/
+
+/**
+ * Back to top button 
+ */
+#back-top                           { position: fixed; bottom: 5px; right: 10px; margin-bottom: 0; 
+  a                                 { display: block; color: @gray-light; 
+    span                            { width: 40px; height: 40px;
+      i.fa                          { font-size: 36px; }
+    }  
+    &:hover                         { color: @gray; }                 
+  }
+}
+
+
+/**
+ * Media Element
+ */
+// #page                               {
+//   .mejs-container, .mejs-embed, .mejs-embed body { height: 60px!important; background: transparent; margin-bottom: 10px; }
+//   .mejs-container .mejs-controls    { height: 60px; background: transparent;
+//     .mejs-button                    { height: 50px; width: 50px; }
+//     .mejs-volume-button             { display: none!important; }
+//     .mejs-play button,
+//     .mejs-pause button              { color: #fff; font-size: 20px; outline: 0; display: block; width:42px; height: 42px; border-radius: 50%; border: 4px solid #fff; line-height: 1; background-image: none; }
+//     .mejs-play button:before        { content:"\e072"; .glyphicon; }
+//     .mejs-pause button:before       { content:"\e073"; .glyphicon; }
+//     div.mejs-horizontal-volume-slider { display: none!important; }
+//     .mejs-currenttime-container     { margin-top: 15px; }
+//     .mejs-duration-container        { margin-top: 15px; }
+//     .mejs-time-rail                 { margin-top: 14px; 
+//       .mejs-time-loaded             { background: transparent; }
+//       .mejs-time-current            { background: #fff; }
+//     }
+                     
+//   }
+// }
+
+
+/*
+   ____    __  __            _  _           ___                      _            
+  / __ \  |  \/  |  ___   __| |(_)  __ _   / _ \  _   _   ___  _ __ (_)  ___  ___ 
+ / / _` | | |\/| | / _ \ / _` || | / _` | | | | || | | | / _ \| '__|| | / _ \/ __|
+| | (_| | | |  | ||  __/| (_| || || (_| | | |_| || |_| ||  __/| |   | ||  __/\__ \
+ \ \__,_| |_|  |_| \___| \__,_||_| \__,_|  \__\_\ \__,_| \___||_|   |_| \___||___/
+  \____/  
+*/
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { 
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { 
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {
+}
