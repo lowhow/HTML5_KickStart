@@ -6380,7 +6380,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 2,
-		"relativeURLS": 0,
+		"relativeURLS": 1,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 1,
 		"strictImports": 0,
@@ -6440,7 +6440,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 2,
-		"relativeURLS": 0,
+		"relativeURLS": 1,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 1,
 		"strictImports": 0,
@@ -6497,6 +6497,18 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/README.md",
+		"outputAbbreviatedPath": "\/README.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		}
