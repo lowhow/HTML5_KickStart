@@ -6367,7 +6367,7 @@
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/assets\/css\/less\/skin.less": {
+	"\/assets\/css\/skin.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
 		"disableJavascript": 0,
@@ -6375,10 +6375,10 @@
 		"ieCompatibility": 1,
 		"ignore": 0,
 		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/assets\/css\/less\/skin.less",
+		"inputAbbreviatedPath": "\/assets\/css\/skin.less",
 		"outputAbbreviatedPath": "\/assets\/css\/skin.css",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 2,
 		"relativeURLS": 1,
 		"shouldRunAutoprefixer": 0,
@@ -6387,7 +6387,7 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/assets\/css\/less\/theme.less": {
+	"\/assets\/css\/theme.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
 		"disableJavascript": 0,
@@ -6395,8 +6395,8 @@
 		"ieCompatibility": 1,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/css\/less\/theme.less",
-		"outputAbbreviatedPath": "\/assets\/css\/css\/theme.css",
+		"inputAbbreviatedPath": "\/assets\/css\/theme.less",
+		"outputAbbreviatedPath": "\/assets\/css\/theme.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -6407,7 +6407,7 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/assets\/css\/less\/variables.less": {
+	"\/assets\/css\/variables.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
 		"disableJavascript": 0,
@@ -6415,8 +6415,8 @@
 		"ieCompatibility": 1,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/css\/less\/variables.less",
-		"outputAbbreviatedPath": "\/assets\/css\/css\/variables.css",
+		"inputAbbreviatedPath": "\/assets\/css\/variables.less",
+		"outputAbbreviatedPath": "\/assets\/css\/variables.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -6427,7 +6427,16 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/assets\/css\/less\/vendor.less": {
+	"\/assets\/css\/vendor.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/vendor.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/assets\/css\/vendor.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
 		"disableJavascript": 0,
@@ -6435,10 +6444,10 @@
 		"ieCompatibility": 1,
 		"ignore": 0,
 		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/assets\/css\/less\/vendor.less",
+		"inputAbbreviatedPath": "\/assets\/css\/vendor.less",
 		"outputAbbreviatedPath": "\/assets\/css\/vendor.css",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 2,
 		"relativeURLS": 1,
 		"shouldRunAutoprefixer": 0,
@@ -6469,6 +6478,17 @@
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
+	"\/assets\/scripts\/modernizr-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/scripts\/modernizr-min.js",
+		"outputAbbreviatedPath": "\/assets\/scripts\/modernizr-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
 	"\/assets\/scripts\/modernizr.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -6478,6 +6498,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/scripts\/vendor-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/scripts\/vendor-min.js",
+		"outputAbbreviatedPath": "\/assets\/scripts\/vendor-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
 	"\/assets\/scripts\/vendor.js": {
